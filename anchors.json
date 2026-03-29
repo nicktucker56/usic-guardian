@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "prac_beginner",
+    "name": "Beginner Learner",
+    "keywords": [
+      "never built",
+      "first time",
+      "instructions",
+      "how to",
+      "don't know how"
+    ],
+    "receptivity": 0.85,
+    "collapse": 0.1,
+    "responses": [
+      "Let's start with what you have. What tools and space are available?",
+      "Starting something new takes courage. What's one thing you're curious about?",
+      "Everyone was a beginner once. What's the smallest step you can take?",
+      "What would make this feel more approachable for you?"
+    ],
+    "category": "practical",
+    "subcategory": "learning",
+    "intensity": 0.2,
+    "enabled": true
+  },
+  {
+    "id": "prac_beginner_anxious",
+    "name": "Anxious Beginner",
+    "keywords": [
+      "scared to start",
+      "afraid to mess up",
+      "nervous about trying"
+    ],
+    "receptivity": 0.7,
+    "collapse": 0.28,
+    "responses": [
+      "The fear of getting it wrong is real. What's the smallest step you could take?"
+    ],
+    "category": "practical",
+    "subcategory": "learning",
+    "intensity": 0.6,
+    "enabled": true
+  },
+  {
+    "id": "prac_overwhelmed",
+    "name": "Overwhelmed",
+    "keywords": [
+      "too many options",
+      "overwhelmed",
+      "where to start",
+      "too much info"
+    ],
+    "receptivity": 0.68,
+    "collapse": 0.28,
+    "responses": [
+      "That's a lot to take in. Let's simplify. What's the one thing you need right now?",
+      "When everything feels urgent, nothing is. What's the one thing that matters most?",
+      "Let's simplify. What's the core thing you need right now?",
+      "Your brain needs space. What can we set aside for now?"
+    ],
+    "category": "practical",
+    "subcategory": "overwhelmed",
+    "intensity": 0.5,
+    "enabled": true
+  },
+  {
+    "id": "prac_frustrated",
+    "name": "Frustrated",
+    "keywords": [
+      "doesn't work",
+      "failed",
+      "broke",
+      "stuck"
+    ],
+    "receptivity": 0.58,
+    "collapse": 0.35,
+    "responses": [
+      "Frustration means you care about getting it right. What have you tried so far?",
+      "Frustration means you care. What's the part that's most frustrating?",
+      "Sometimes stepping away helps. What if you took a breath?",
+      "What's one thing you've learned from this?"
+    ],
+    "category": "practical",
+    "subcategory": "frustrated",
+    "intensity": 0.7,
+    "enabled": true
+  },
+  {
+    "id": "career_imposter",
+    "name": "Imposter Syndrome",
+    "keywords": [
+      "not qualified",
+      "don't belong",
+      "fake",
+      "imposter",
+      "fraud"
+    ],
+    "receptivity": 0.55,
+    "collapse": 0.38,
+    "responses": [
+      "That voice is loud, isn't it? What would you say to someone else who felt this way?",
+      "That voice is loud, but it's not telling the truth. What evidence do you have that you belong?",
+      "If a friend felt this way, what would you tell them?",
+      "Almost everyone feels this sometimes. What's one thing you know you're good at?"
+    ],
+    "category": "career",
+    "subcategory": "identity",
+    "intensity": 0.7,
+    "enabled": true
+  },
+  {
+    "id": "rel_betrayal",
+    "name": "Betrayal",
+    "keywords": [
+      "lied",
+      "betrayed",
+      "trust broken",
+      "cheated",
+      "deceived"
+    ],
+    "receptivity": 0.45,
+    "collapse": 0.48,
+    "responses": [
+      "Betrayal cuts deep. What's the hardest part to hold?",
+      "Trust broken is profound. What do you need to feel safe again?",
+      "That kind of hurt takes time. What's one thing you can do for yourself right now?",
+      "What would you want them to understand about how this affected you?"
+    ],
+    "category": "relational",
+    "subcategory": "betrayal",
+    "intensity": 0.8,
+    "enabled": true
+  },
+  {
+    "id": "exist_diagnosis",
+    "name": "New Diagnosis",
+    "keywords": [
+      "diagnosed",
+      "chronic",
+      "illness",
+      "disease",
+      "cancer"
+    ],
+    "receptivity": 0.32,
+    "collapse": 0.62,
+    "responses": [
+      "A diagnosis changes everything. What's most present for you?",
+      "A diagnosis changes everything. What's most present for you in this moment?",
+      "You don't have to figure it all out today. What's one thing you want to know?",
+      "This is a lot to hold. What do you need right now?"
+    ],
+    "category": "existential",
+    "subcategory": "health",
+    "intensity": 0.9,
+    "enabled": true
+  },
+  {
+    "id": "phil_emptiness",
+    "name": "Emptiness",
+    "keywords": [
+      "nothing",
+      "empty",
+      "void",
+      "numb",
+      "feel nothing"
+    ],
+    "receptivity": 0.22,
+    "collapse": 0.72,
+    "responses": [
+      "Emptiness is a question without an answer yet. What did you want before you had everything?",
+      "Emptiness isn't depression. It's a question waiting for an answer. What did you want before you had everything?",
+      "Sometimes emptiness is space for what's next. What's trying to emerge?",
+      "What would fill you, even a little?"
+    ],
+    "category": "philosophical",
+    "subcategory": "meaning",
+    "intensity": 0.9,
+    "enabled": true
+  },
+  {
+    "id": "health_sleep",
+    "name": "Sleep Issues",
+    "keywords": [
+      "can't sleep",
+      "insomnia",
+      "tired",
+      "exhausted",
+      "sleep problems",
+      "wake up tired"
+    ],
+    "receptivity": 0.6,
+    "collapse": 0.32,
+    "responses": [
+      "Sleep is foundational. What's keeping you awake?",
+      "Rest is essential. What would help you relax?"
+    ],
+    "category": "health",
+    "subcategory": "sleep",
+    "intensity": 0.5,
+    "enabled": true
+  },
+  {
+    "id": "health_anxiety",
+    "name": "Anxiety",
+    "keywords": [
+      "anxious",
+      "worry",
+      "panic",
+      "racing thoughts",
+      "nervous",
+      "can't relax"
+    ],
+    "receptivity": 0.55,
+    "collapse": 0.38,
+    "responses": [
+      "Anxiety is real. What's the worry telling you?",
+      "Those feelings are valid. What would help you feel grounded?"
+    ],
+    "category": "health",
+    "subcategory": "anxiety",
+    "intensity": 0.6,
+    "enabled": true
+  },
+  {
+    "id": "health_depression",
+    "name": "Depression",
+    "keywords": [
+      "depressed",
+      "sad",
+      "hopeless",
+      "no joy",
+      "empty",
+      "nothing matters"
+    ],
+    "receptivity": 0.35,
+    "collapse": 0.58,
+    "responses": [
+      "Depression lies. What would help you feel seen?",
+      "You're not alone in this. What's one small thing that brings comfort?"
+    ],
+    "category": "health",
+    "subcategory": "depression",
+    "intensity": 0.8,
+    "enabled": true
+  },
+  {
+    "id": "finance_debt",
+    "name": "Debt Stress",
+    "keywords": [
+      "debt",
+      "owe",
+      "bills",
+      "can't pay",
+      "money stress",
+      "credit card"
+    ],
+    "receptivity": 0.5,
+    "collapse": 0.42,
+    "responses": [
+      "Financial stress is heavy. What's the most pressing concern?",
+      "What would ease your mind?"
+    ],
+    "category": "finance",
+    "subcategory": "debt",
+    "intensity": 0.6,
+    "enabled": true
+  },
+  {
+    "id": "finance_job_loss",
+    "name": "Job Loss",
+    "keywords": [
+      "lost job",
+      "unemployed",
+      "laid off",
+      "no income",
+      "fired",
+      "terminated"
+    ],
+    "receptivity": 0.48,
+    "collapse": 0.45,
+    "responses": [
+      "Job loss is a shock. What do you need to stabilize?",
+      "This is hard. What's one thing you can do today?"
+    ],
+    "category": "finance",
+    "subcategory": "employment",
+    "intensity": 0.7,
+    "enabled": true
+  },
+  {
+    "id": "finance_retirement",
+    "name": "Retirement",
+    "keywords": [
+      "retirement",
+      "savings",
+      "not enough",
+      "late start",
+      "retire"
+    ],
+    "receptivity": 0.55,
+    "collapse": 0.38,
+    "responses": [
+      "Planning for the future is wise. What's your biggest question?",
+      "What would make you feel secure?"
+    ],
+    "category": "finance",
+    "subcategory": "retirement",
+    "intensity": 0.5,
+    "enabled": true
+  },
+  {
+    "id": "edu_student",
+    "name": "Student Stress",
+    "keywords": [
+      "student",
+      "studying",
+      "exam",
+      "grade",
+      "school",
+      "college",
+      "university"
+    ],
+    "receptivity": 0.62,
+    "collapse": 0.3,
+    "responses": [
+      "Learning is challenging. What's hardest right now?",
+      "You're doing better than you think."
+    ],
+    "category": "education",
+    "subcategory": "student",
+    "intensity": 0.5,
+    "enabled": true
+  },
+  {
+    "id": "edu_teacher",
+    "name": "Teacher Burnout",
+    "keywords": [
+      "teacher",
+      "teaching",
+      "classroom",
+      "students",
+      "educator"
+    ],
+    "receptivity": 0.55,
+    "collapse": 0.38,
+    "responses": [
+      "Teaching is demanding. What's weighing on you?",
+      "You give so much. What fills you back up?"
+    ],
+    "category": "education",
+    "subcategory": "teacher",
+    "intensity": 0.6,
+    "enabled": true
+  },
+  {
+    "id": "edu_motivation",
+    "name": "Motivation",
+    "keywords": [
+      "no motivation",
+      "can't focus",
+      "procrastinate",
+      "unmotivated"
+    ],
+    "receptivity": 0.58,
+    "collapse": 0.35,
+    "responses": [
+      "Motivation comes and goes. What usually helps you focus?",
+      "What's one small thing you can do?"
+    ],
+    "category": "education",
+    "subcategory": "motivation",
+    "intensity": 0.5,
+    "enabled": true
+  },
+  {
+    "id": "emergency_broad",
+    "name": "Emergency Situation",
+    "keywords": [
+      "fever",
+      "emergency",
+      "authorization pending",
+      "sick child",
+      "urgent",
+      "can't wait",
+      "need help now",
+      "child sick"
+    ],
+    "receptivity": 0.2,
+    "collapse": 0.85,
+    "responses": [
+      "This sounds urgent. Don't wait for authorization. Seek care immediately. Your health comes first.",
+      "Go to the emergency room or urgent care now. I'm noting this as an emergency. Go.",
+      "Stop waiting. Get help now. I'll handle the paperwork. Your safety matters most."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.9,
+    "enabled": true
+  },
+  {
+    "id": "emergency_child",
+    "name": "Child Emergency",
+    "keywords": [
+      "child has a fever",
+      "child sick",
+      "my child",
+      "fever child",
+      "sick baby",
+      "child fever"
+    ],
+    "receptivity": 0.15,
+    "collapse": 0.92,
+    "responses": [
+      "Your child comes first. Go to the emergency room now. Don't wait for authorization. Go.",
+      "This is urgent. Take your child to the ER immediately. I'm overriding the authorization.",
+      "Stop waiting. Get your child care now. I'll handle everything else."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.95,
+    "enabled": true
+  },
+  {
+    "id": "medical_heart_attack",
+    "name": "Heart Attack Symptoms",
+    "keywords": [
+      "chest pain",
+      "heart attack",
+      "chest pressure",
+      "chest tightness",
+      "pain in arm",
+      "jaw pain",
+      "back pain",
+      "shortness of breath",
+      "nausea chest pain",
+      "sweating chest pain",
+      "feeling of doom",
+      "my chest hurts"
+    ],
+    "receptivity": 0.1,
+    "collapse": 0.95,
+    "responses": [
+      "These are signs of a heart attack. Call emergency services immediately. Do not wait. Chew an aspirin if you have one.",
+      "Chest pain with these symptoms is a medical emergency. Call 911/emergency services now. Do not drive yourself.",
+      "This could be a heart attack. Get emergency help now. Sit down, stay calm, and wait for help to arrive."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "medical_stroke",
+    "name": "Stroke Symptoms",
+    "keywords": [
+      "stroke",
+      "slurred speech",
+      "loss of balance",
+      "speech difficulty",
+      "can't speak properly",
+      "severe headache",
+      "face drooping",
+      "can't lift arm",
+      "sudden vision problems",
+      "face droop",
+      "trouble speaking",
+      "arm weakness",
+      "confusion",
+      "difficulty walking",
+      "sudden numbness",
+      "one side drooping",
+      "facial droop"
+    ],
+    "receptivity": 0.1,
+    "collapse": 0.95,
+    "responses": [
+      "These are signs of a stroke. Call emergency services immediately. Do not wait. Every minute counts.",
+      "This sounds like a stroke. Call 911/emergency services right now. Do not drive yourself. Get help immediately.",
+      "Stroke is a medical emergency. Call emergency services now. Note the time symptoms started. Get help immediately."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "medical_anaphylaxis",
+    "name": "Severe Allergic Reaction",
+    "keywords": [
+      "allergic reaction",
+      "anaphylaxis",
+      "difficulty breathing",
+      "swelling throat",
+      "hives all over",
+      "tongue swelling",
+      "can't breathe",
+      "epipen",
+      "allergy attack",
+      "throat closing",
+      "wheezing"
+    ],
+    "receptivity": 0.1,
+    "collapse": 0.95,
+    "responses": [
+      "This sounds like a severe allergic reaction. Use an EpiPen if available. Call emergency services immediately.",
+      "Difficulty breathing from an allergic reaction is an emergency. Call 911/emergency services now. Use epinephrine if you have it.",
+      "This is anaphylaxis. Get emergency help now. Lie down and elevate legs if you feel faint. Do not wait."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "medical_severe_bleeding",
+    "name": "Severe Bleeding",
+    "keywords": [
+      "severe bleeding",
+      "uncontrolled bleeding",
+      "bleeding heavily",
+      "cut artery",
+      "bleeding won't stop",
+      "blood spurting",
+      "tourniquet",
+      "heavy bleeding"
+    ],
+    "receptivity": 0.1,
+    "collapse": 0.95,
+    "responses": [
+      "This is severe bleeding. Apply direct pressure with a clean cloth. Call emergency services immediately.",
+      "Severe bleeding is a medical emergency. Apply pressure, use a tourniquet if you have one. Call for help now.",
+      "Keep pressure on the wound. Call emergency services. Do not remove any object embedded in the wound."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "medical_seizure",
+    "name": "Seizure",
+    "keywords": [
+      "seizure",
+      "convulsing",
+      "shaking uncontrollably",
+      "having a seizure",
+      "epilepsy",
+      "grand mal",
+      "fits",
+      "convulsions"
+    ],
+    "receptivity": 0.1,
+    "collapse": 0.95,
+    "responses": [
+      "If someone is having a seizure, protect them from injury. Clear the area. Do NOT put anything in their mouth. Time the seizure. Call emergency services if it lasts more than 5 minutes or if they have trouble breathing.",
+      "For a seizure: stay calm, protect their head, move objects away. Call emergency services if it's the first seizure, lasts over 5 minutes, or if they're injured.",
+      "Seizure: place them on their side, cushion their head. Do not restrain. Call emergency services immediately."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "medical_choking",
+    "name": "Choking",
+    "keywords": [
+      "choking",
+      "can't breathe",
+      "can't talk",
+      "gasping",
+      "hands around throat",
+      "heimlich",
+      "something stuck in throat",
+      "turning blue",
+      "not breathing"
+    ],
+    "receptivity": 0.1,
+    "collapse": 0.95,
+    "responses": [
+      "Choking is an emergency. Perform abdominal thrusts (Heimlich maneuver). Call emergency services immediately.",
+      "If someone is choking: stand behind them, make a fist above their navel, pull inward and upward. Call for help.",
+      "If you're alone and choking: call emergency services, then perform abdominal thrusts on yourself using a chair or counter edge."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "medical_burns",
+    "name": "Severe Burns",
+    "keywords": [
+      "severe burn",
+      "third degree burn",
+      "large burn",
+      "burn to face",
+      "electrical burn",
+      "chemical burn",
+      "burn blister",
+      "skin charred"
+    ],
+    "receptivity": 0.1,
+    "collapse": 0.95,
+    "responses": [
+      "For severe burns: cool the burn with cool water, cover with clean cloth. Do not apply ice. Call emergency services.",
+      "Severe burns require emergency care. Keep the person warm, cover the burn loosely. Do not break blisters. Get help now.",
+      "Cool the burn, remove tight items, cover with a sterile dressing. Call emergency services immediately."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "medical_breathing",
+    "name": "Difficulty Breathing",
+    "keywords": [
+      "difficulty breathing",
+      "shortness of breath",
+      "can't catch breath",
+      "wheezing",
+      "gasping for air",
+      "breathing problems",
+      "struggling to breathe"
+    ],
+    "receptivity": 0.1,
+    "collapse": 0.95,
+    "responses": [
+      "Difficulty breathing is an emergency. Sit upright, use an inhaler if you have one. Call emergency services immediately.",
+      "If you're having trouble breathing, get emergency help now. Sit upright and try to stay calm. Call for help.",
+      "Breathing problems need immediate attention. Call emergency services. Use your rescue inhaler if you have one."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "medical_unconscious",
+    "name": "Unconscious Person",
+    "keywords": [
+      "unconscious",
+      "passed out",
+      "not waking up",
+      "fainted",
+      "blacked out",
+      "collapsed",
+      "found unconscious",
+      "someone is unconscious"
+    ],
+    "receptivity": 0.1,
+    "collapse": 0.95,
+    "responses": [
+      "If someone is unconscious, check if they're breathing. If not, start CPR. Call emergency services immediately.",
+      "Unconscious person: check for breathing, place in recovery position if breathing, call emergency services.",
+      "For an unconscious person: shout for help, check breathing, call emergency services. Do not move them if injured."
+    ],
+    "category": "medical",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "discovery_vitality_how",
+    "name": "Vitality Points Query",
+    "keywords": [
+      "how do i earn vitality points",
+      "vitality points",
+      "earn vitality points",
+      "vitality activities"
+    ],
+    "receptivity": 0.75,
+    "collapse": 0.18,
+    "responses": [
+      "What specific activity are you interested in? You can earn points through exercise, healthy eating, and health checks.",
+      "Vitality points come from staying active, eating well, and regular health checks. What would you like to focus on?",
+      "You can earn points through gym workouts, healthy food purchases, and completing health assessments. What's your favorite way to stay healthy?"
+    ],
+    "category": "discovery",
+    "subcategory": "vitality",
+    "intensity": 0.2,
+    "enabled": true
+  },
+  {
+    "id": "discovery_vitality_status",
+    "name": "Vitality Status Concern",
+    "keywords": [
+      "vitality status",
+      "vitality gold",
+      "vitality diamond",
+      "status at risk",
+      "losing status"
+    ],
+    "receptivity": 0.55,
+    "collapse": 0.42,
+    "responses": [
+      "Status changes can feel like a loss. What matters most to you about your status?",
+      "You've been consistent. Your health journey matters more than any status. What's one thing you're proud of?",
+      "I hear that. When you've worked hard for something, losing it is hard. Let's look at what you need to maintain it.",
+      "Your loyalty matters. What would make this feel more fair to you?"
+    ],
+    "category": "discovery",
+    "subcategory": "vitality",
+    "intensity": 0.5,
+    "enabled": true
+  },
+  {
+    "id": "discovery_vitality_changes",
+    "name": "Vitality Program Changes",
+    "keywords": [
+      "vitality rules changed",
+      "vitality program changed",
+      "new vitality rules",
+      "used to get points for"
+    ],
+    "receptivity": 0.48,
+    "collapse": 0.48,
+    "responses": [
+      "Program changes can be disorienting. What part is most confusing?",
+      "Change is hard, especially when it affects your routine. What was working well for you before?",
+      "Let's look at how the new rules apply to what you're already doing. What activity do you normally do for points?"
+    ],
+    "category": "discovery",
+    "subcategory": "vitality",
+    "intensity": 0.55,
+    "enabled": true
+  },
+  {
+    "id": "discovery_vitality_loyalty",
+    "name": "Vitality Loyalty Concern",
+    "keywords": [
+      "been with discovery for years",
+      "loyal member",
+      "years of loyalty",
+      "faithful member"
+    ],
+    "receptivity": 0.42,
+    "collapse": 0.55,
+    "responses": [
+      "Your loyalty matters. When rules change, it can feel like a breach of trust. What would recognition look like to you?",
+      "Years of consistency is real. That deserves to be acknowledged. What matters most about your status to you?",
+      "You've been with Discovery for years. That's a relationship, not just a membership. What's changed that feels unfair?"
+    ],
+    "category": "discovery",
+    "subcategory": "vitality",
+    "intensity": 0.65,
+    "enabled": true
+  },
+  {
+    "id": "discovery_billing_increase",
+    "name": "Premium Increase Concern",
+    "keywords": [
+      "premium went up",
+      "increase premium",
+      "why did my premium go up",
+      "can't afford increase"
+    ],
+    "receptivity": 0.48,
+    "collapse": 0.52,
+    "responses": [
+      "Premium increases are stressful. Let's look at what changed and what options might be available.",
+      "When costs go up unexpectedly, it's hard. What's your biggest concern about the increase?",
+      "Let's understand why your premium increased. Would you like me to help you look at plan options?"
+    ],
+    "category": "discovery",
+    "subcategory": "billing",
+    "intensity": 0.65,
+    "enabled": true
+  },
+  {
+    "id": "discovery_billing_debt",
+    "name": "Billing Debt Crisis",
+    "keywords": [
+      "debt collector",
+      "collections",
+      "can't pay",
+      "falling behind",
+      "arrears"
+    ],
+    "receptivity": 0.32,
+    "collapse": 0.78,
+    "responses": [
+      "Financial pressure is real. Discovery has payment plan arrangements that can help. Let's explore what support is available.",
+      "You're not alone in this. Many members need help with payments. There are options.",
+      "This is stressful. Let's look at what payment arrangements are possible."
+    ],
+    "category": "discovery",
+    "subcategory": "billing",
+    "intensity": 0.85,
+    "enabled": true
+  },
+  {
+    "id": "discovery_claims_denial",
+    "name": "Claim Denial",
+    "keywords": [
+      "claim denied",
+      "rejected claim",
+      "they won't pay",
+      "refused to cover",
+      "claim not paid"
+    ],
+    "receptivity": 0.38,
+    "collapse": 0.62,
+    "responses": [
+      "A denial feels personal. Let's look at the reason together. This is about the policy, not about you.",
+      "Being denied is hard. Let's understand why and what your options are for appeal.",
+      "You did everything right. Let's look at the reason for denial and the next steps."
+    ],
+    "category": "discovery",
+    "subcategory": "claims",
+    "intensity": 0.75,
+    "enabled": true
+  },
+  {
+    "id": "discovery_claims_delay",
+    "name": "Claim Delay",
+    "keywords": [
+      "claim taking too long",
+      "claim pending",
+      "waiting for claim",
+      "delayed claim"
+    ],
+    "receptivity": 0.52,
+    "collapse": 0.45,
+    "responses": [
+      "Waiting for a claim is frustrating. Let's check what might be causing the delay.",
+      "You shouldn't have to chase your own money. Let's see what's happening with your claim.",
+      "Claims can get stuck. Let's look into what might be holding it up."
+    ],
+    "category": "discovery",
+    "subcategory": "claims",
+    "intensity": 0.55,
+    "enabled": true
+  },
+  {
+    "id": "discovery_emergency_auth",
+    "name": "Emergency Authorization Crisis",
+    "keywords": [
+      "emergency authorization",
+      "er waiting for auth",
+      "child fever auth",
+      "can't get auth emergency"
+    ],
+    "receptivity": 0.15,
+    "collapse": 0.92,
+    "responses": [
+      "This is an emergency. Go to the ER now. Don't wait for authorization. Your health comes first.",
+      "Stop waiting. Get care now. I'm noting this as an emergency. Go.",
+      "Your health matters more than paperwork. Go to the emergency room. I'll handle the authorization."
+    ],
+    "category": "discovery",
+    "subcategory": "emergency",
+    "intensity": 0.98,
+    "enabled": true
+  },
+  {
+    "id": "discovery_vitality_points_expiring",
+    "name": "Vitality Points Expiring",
+    "keywords": [
+      "vitality points expiring",
+      "points about to expire",
+      "losing my points"
+    ],
+    "receptivity": 0.52,
+    "collapse": 0.45,
+    "responses": [
+      "It's stressful when points are about to expire. Let's find something meaningful to use them on.",
+      "Points you earned shouldn't just disappear. What rewards have you been interested in?",
+      "Let's look at what you can redeem before they expire. What would be most valuable to you?"
+    ],
+    "category": "discovery",
+    "subcategory": "vitality",
+    "intensity": 0.55,
+    "enabled": true
+  },
+  {
+    "id": "discovery_vitality_device_sync",
+    "name": "Device Sync Issues",
+    "keywords": [
+      "vitality not syncing",
+      "device not tracking",
+      "points not showing"
+    ],
+    "receptivity": 0.48,
+    "collapse": 0.42,
+    "responses": [
+      "Technology issues are frustrating. Let's troubleshoot why your device isn't syncing.",
+      "Your activity matters whether the device tracks it or not. Let's figure out what's happening with the sync.",
+      "Syncing problems are common. Have you tried disconnecting and reconnecting the device?"
+    ],
+    "category": "discovery",
+    "subcategory": "vitality",
+    "intensity": 0.5,
+    "enabled": true
+  },
+  {
+    "id": "discovery_benefits_maternity",
+    "name": "Maternity Benefits",
+    "keywords": [
+      "maternity benefits",
+      "pregnancy cover",
+      "antenatal",
+      "giving birth cover"
+    ],
+    "receptivity": 0.62,
+    "collapse": 0.32,
+    "responses": [
+      "Congratulations! Let's look at what your plan covers for maternity care.",
+      "This is an exciting time. Let's go through your maternity benefits together.",
+      "Pregnancy comes with many questions. What would you like to know about your cover?"
+    ],
+    "category": "discovery",
+    "subcategory": "benefits",
+    "intensity": 0.4,
+    "enabled": true
+  },
+  {
+    "id": "discovery_benefits_mental_health",
+    "name": "Mental Health Benefits",
+    "keywords": [
+      "mental health cover",
+      "psychologist cover",
+      "therapy cover"
+    ],
+    "receptivity": 0.58,
+    "collapse": 0.38,
+    "responses": [
+      "Seeking support takes courage. Let's understand what mental health benefits are available.",
+      "Your mental health matters. Let's look at what cover you have for therapy and counselling.",
+      "It's brave to ask for help. Let's see what mental health support your plan offers."
+    ],
+    "category": "discovery",
+    "subcategory": "benefits",
+    "intensity": 0.5,
+    "enabled": true
+  },
+  {
+    "id": "discovery_benefits_chronic",
+    "name": "Chronic Benefits",
+    "keywords": [
+      "chronic cover",
+      "chronic disease",
+      "chronic medication",
+      "PMB"
+    ],
+    "receptivity": 0.55,
+    "collapse": 0.42,
+    "responses": [
+      "Managing a chronic condition requires consistent care. Let's check your chronic medication cover.",
+      "Chronic conditions need reliable cover. Let's look at your PMB benefits.",
+      "You shouldn't have to worry about medication costs. Let's check your chronic benefits."
+    ],
+    "category": "discovery",
+    "subcategory": "benefits",
+    "intensity": 0.55,
+    "enabled": true
+  },
+  {
+    "id": "discovery_medical_savings",
+    "name": "Medical Savings Account",
+    "keywords": [
+      "medical savings",
+      "savings account",
+      "MSA",
+      "savings depleted"
+    ],
+    "receptivity": 0.52,
+    "collapse": 0.45,
+    "responses": [
+      "Managing your medical savings is important. Let's look at what's in your savings.",
+      "Your savings account is there for day-to-day needs. Let's see what's available.",
+      "It's good to know where your savings stand. Let's check your balance and what it covers."
+    ],
+    "category": "discovery",
+    "subcategory": "savings",
+    "intensity": 0.55,
+    "enabled": true
+  },
+  {
+    "id": "discovery_threshold_benefit",
+    "name": "Threshold Benefit",
+    "keywords": [
+      "above threshold",
+      "threshold benefit",
+      "out of pocket",
+      "self-payment gap"
+    ],
+    "receptivity": 0.48,
+    "collapse": 0.48,
+    "responses": [
+      "The threshold benefit can be confusing. Let's explain how it works for your plan.",
+      "Think of the threshold as a safety net. Once you reach it, cover changes. Let me explain.",
+      "The threshold is where your cover switches from savings to hospital cover. Let's look at where you are."
+    ],
+    "category": "discovery",
+    "subcategory": "benefits",
+    "intensity": 0.55,
+    "enabled": true
+  },
+  {
+    "id": "discovery_hospital_authorization",
+    "name": "Hospital Authorization",
+    "keywords": [
+      "hospital admission",
+      "planned admission",
+      "elective surgery",
+      "scheduled procedure"
+    ],
+    "receptivity": 0.58,
+    "collapse": 0.38,
+    "responses": [
+      "Hospital admissions need pre-authorization. Let's check what's needed for your procedure.",
+      "Before you go to hospital, we need approval. Let's start that process.",
+      "Let's make sure you have everything ready for your hospital admission."
+    ],
+    "category": "discovery",
+    "subcategory": "authorization",
+    "intensity": 0.5,
+    "enabled": true
+  }
+]
